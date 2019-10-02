@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #3399CC;
+    border: 25px #2B81AC solid;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    height: 100vh;
+}
+
+header {
+    text-align: left;
+    color: white;
+    padding: 10px 0 5px 0;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    border: 2px white solid;
+}
+
+ul{
+    padding: 0;
+    margin-left: 0px;
+    font-size: 0;
+}
+
+li {
+    width: 25%;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    border: 3px white solid;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: center;
+}
+
+input {
+    position: left;
+    margin-left: 10px;
+}
+
+
+span {
+    font-size: 28px;
+    font-weight: lighter;
+    color: #CFDFDF;
+}
+
+.w-1 {
+    width: 1000px;
+    margin: auto;
+}
+
+p{
+    padding: 10px;
+    color: white;
+}
+
+.city1, .city9{
+    width: 50%;
+}
+
+.city2, .city3, .city4, .city5,.city6, .city7,.city8, .city10{
+    width: 25%;
+}
+
+.city11{
+    width: 100%;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+li:hover{
+    opacity: 0.5;
+}
+
+.city2 {
+    background-color: #33CCCC;
+}
+.city3 {
+    background-color: #996699;
+}
+.city4 {
+    background-color: #C24747;
+}
+.city5 {
+    background-color: #E2674A;
+}
+.city6 {
+    background-color: #FFCC66;
+}
+.city7 {
+    background-color: #99CC99;
+}
+.city8 {
+    background-color: #669999;
+}
+.city9 {
+    background-color: #CC6699;
+}
+.city10 {
+    background-color: #339966;
+}
+.city11 {
+    background-color: #666699;
+}
