@@ -74,10 +74,6 @@ h2{
     font-size: 28px;
 }
 
-li:hover{
-    opacity: 0.5;
-}
-
 .city2 {
     background-color: #33CCCC;
 }
@@ -107,4 +103,11 @@ li:hover{
 }
 .city11 {
     background-color: #666699;
+}
+
+ul:hover li {
+  filter: blur(3px);
+}
+ul li:hover {
+  filter: none;
 }
