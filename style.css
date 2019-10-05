@@ -69,13 +69,12 @@ p{
     width: 100%;
 }
 
-h2{
-    font-weight: normal;
-    font-size: 28px;
+ul:hover li {
+    filter: blur(3px);
 }
 
-li:hover{
-    opacity: 0.5;
+ul li:hover {
+    filter: none;
 }
 
 .city2 {
